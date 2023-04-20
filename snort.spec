@@ -18,7 +18,7 @@
 
 # Handle the options noted above.
 # Default with openAppId, but '--without openappid' will disable it
-%define openappid 1
+%define openappid 0
 %{?_without_openappid:%define openappid 0}
 
 %define vendor Snort.org
